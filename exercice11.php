@@ -17,5 +17,6 @@ for ($i = 0; $i < $nbDeMarques; $i++) {
     }
 
 // affichage du nombre de marques de voitures
-echo "Notre tableau comporte $nbDeMarques marques de voitures différentes.";
+echo "Notre tableau comporte $nbDeMarques marques de voitures différentes.<br>";
+echo "Notre tableau comporte ".count($voitures)." marques de voitures différentes."; // c'est juste pour tester un peu les affichages. ^^
 ?>

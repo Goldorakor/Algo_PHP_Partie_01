@@ -18,5 +18,7 @@ $tabNotes[] = 11;
 
 // Changer une note puis afficher la nouvelle valeur
 $tabNotes [1] = 8;
-echo 'La valeur à l\'indice 1 est : '. $tabNotes[1];
+echo 'La valeur à l\'indice 0 est : '. $tabNotes[0].<br>;
+echo 'La valeur à l\'indice 1 est : '. $tabNotes[1].<br>;
+echo 'La valeur à l\'indice 2 est : '. $tabNotes[2].<br>;
 ?>

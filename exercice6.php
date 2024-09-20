@@ -17,5 +17,5 @@ $montantFacture = (($prixPantalonHT * $nbPantalons) + ($prixRobeHT * $nbRobes)) 
 $tauxAfficheTVA = $tauxTVA * 100; // pour afficher la TVA en % dans le texte
 
 // affichage du résultat 
-echo "L'achat de $nbPantalons pantalons au prix hors taxe de $prixPantalonHT euros et l'achat de $nbRobes robes au prix hors taxe de $prixRobeHT euros coûtera $montantFacture euros, en tenant compte de la TVA à $tauxAfficheTVA %.";
+echo "L'achat de $nbPantalons pantalons au prix hors taxe de $prixPantalonHT euros et de $nbRobes robes au prix hors taxe de $prixRobeHT euros coûtera $montantFacture euros, en tenant compte de la TVA à $tauxAfficheTVA %.";
 ?>
